@@ -1,0 +1,20 @@
+button {
+    font-family: var(--header-font);
+    background-color: var(--primary-color-1);
+    border: 3px solid black;
+    box-shadow: 4px 4px 0 0 black;
+    padding: 10px;
+    font-size: 1rem;
+
+    min-width: 42px;
+    min-height: 42px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--primary-color-2);
+    position: relative;
+    top: 2px;
+    left: 2px;
+    box-shadow: 2px 2px 0 0 black;
+}

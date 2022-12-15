@@ -1,0 +1,15 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    flex-wrap: wrap;
+}
+
+.projects__header {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 6vw;
+    margin-block: 10vh 5vh;
+    max-width: 40ch;
+}

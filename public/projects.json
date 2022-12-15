@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "Scrollytelling",
+        "imgPath": "/img/scrollytelling.png",
+        "description": "This project was part of the course Advanced CSS where we created a scrollytelling page using SCSS and IntersectionObserver API. We also took to use the BEM naming convention for SCSS.",
+        "link": "https://tijohans.github.io/IDG1293_o3/"
+    },
+    {
+        "id": "2",
+        "name": "Web Scraping using Bash",
+        "imgPath": "/img/web-scraping.png",
+        "description": "Project from my exam in Web Fundamentals, the goal of this project was to scrape the web using Bash scripting, and creating websites dynamically after scraping the content. This project taught me BASH scripting as well as an understanding of Regular Expressions",
+        "link": "https://github.com/tijohans/IDG1100-exam-project"
+    },
+    {
+        "id": "3",
+        "name": "Todo App",
+        "imgPath": "/img/todo-app.png",
+        "description": "This project was part of the front-end course, were our task was to create an app with a list of different criterias",
+        "link": "https://tijohans.github.io/IDG1011_o3/"
+    },
+    {
+        "id": "4",
+        "name": "JS Guessing Game",
+        "imgPath": "/img/gkt.png",
+        "description": "This is a game I created were the goal is to guess wether the given quote is either a Kanye tweet, a Gibby quote, or a poorly translated t-shirt",
+        "link": "https://tijohans.github.io/IDG1011_o1/"
+    }
+]

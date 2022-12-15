@@ -1,0 +1,23 @@
+.navigation {
+    padding-inline: 3vw;
+    margin-block: 2.5vh;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation__header {
+    margin-right: auto;
+}
+
+.navigation__list {
+    display: flex;
+    gap: 5vw;
+    list-style-type: none;
+}
+
+.navigation__list a:hover {
+    text-decoration: underline;
+    color: var(--primary-color-2);
+}
+

@@ -1,0 +1,46 @@
+.projectcard {
+    border: 4px solid black;
+    box-shadow: 7px 7px 0 0 black;
+    background-color: var(--primary-color-0);
+    max-width: min(400px, 80%);
+    aspect-ratio: 1 / 1.3;
+
+    margin: 2rem;
+}
+
+.projectcard__container {
+    height: 100%;
+}
+
+.projectcard__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    margin-inline: 1rem;
+}
+
+.projectcard__projectnumber {
+    min-width: 7ch;
+}
+
+.projectcard__name {
+    margin-block: 1rem;
+}
+
+.projectcard__image {
+    /* Setting the ascpect ratio to match the format of the original screenshots */
+    aspect-ratio: 1920/1080;
+    width: 100%;
+    outline: 3px solid black;
+}
+
+.projectcard__description {
+    margin: 30px 20px 5px ;
+    margin-bottom: 10px;
+}
+
+.projectcard .button__component {
+    margin: 20px;
+}
