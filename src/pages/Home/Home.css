@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 90vh;
+    max-width: 100vw;
     margin-inline: 6vw;
 }
 
