@@ -29,6 +29,7 @@
     font-size: 2rem;
     margin-block: 3vh;
     font-weight: 400;
+    max-width: fit-content;
 }
 
 .main__hero__header span::after,
