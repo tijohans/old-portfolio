@@ -29,13 +29,14 @@
     font-size: 2rem;
     margin-block: 3vh;
     font-weight: 400;
-    max-width: fit-content;
+
+    max-width: 80vw;
 }
 
 .main__hero__header span::after,
 .main__hero__header span::before {
     content: "\a";
-    white-space: pre;
+    white-space: pre-wrap;
 }
 
 .about__section > * {
