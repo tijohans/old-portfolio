@@ -1,3 +1,7 @@
+main {
+    min-height: 80vh;
+}
+
 .projects {
     display: flex;
     justify-content: center;

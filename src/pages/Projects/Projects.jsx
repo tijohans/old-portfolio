@@ -1,9 +1,16 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
+import gsap from 'gsap';
 import './Projects.css';
 
 function Projects() {
-    const [data, setData] = useState([]);
+    // Data from JSON file
+    const [data, setData] = useState([])
+
+    // Elements to animate
+    let info = useRef(null);
+    let projects = useRef(null);
+
 
     const getData = () => {
         fetch('projects.json'
@@ -25,19 +32,50 @@ function Projects() {
     }
 
     useEffect(() => {
+        // Get data from json file
         getData()
+
+        // Animations
+        gsap.fromTo(
+            info,
+            {
+                y: 100,
+                opacity: 0
+            },
+            {
+                y: 0,
+                opacity: 1,
+                duration: 1
+            }
+        )
+
+        gsap.fromTo(
+            projects,
+            {
+                y: 70,
+                opacity: 0
+            },
+            {
+                y: 0,
+                opacity: 1,
+                delay: 0.5,
+                duration: 1
+            }
+        )
+
     }, [])
 
     return (
         <main>
-            <header className='projects__header'>
+            <header ref={el => {info = el}} className='projects__header'>
                 <h1>Projects</h1>
                 <p>This is a list of my five most recent projects, the list will be updated regularly. </p>
             </header>
-            <section className='projects'>
+            <section ref={el => {projects = el}} className='projects'>
                 {
                     data && data.length > 0 && data.map((item) =>
                         <ProjectCard
+                            
                             key={item.id}
                             id={item.id}
                             name={item.name}
