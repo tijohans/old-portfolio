@@ -66,7 +66,7 @@ function Home() {
                 <section className="about__section">
                     <h2 className="about__section__header">About this page</h2>
                     <p>This page works as my personal portfolio, a place for people to look at my work, and as a way to get
-                        in touch with me. </p>
+                        in touch with me. This page is built using react + vite, and animations are powered by GSAP.</p>
                 </section>
             </div>
         </main>
