@@ -82,6 +82,7 @@ function Projects() {
                             imgPath={item.imgPath}
                             description={item.description}
                             link={item.link}
+                            totalNoOfItems={data.length}
                         />)
                 }
             </section>

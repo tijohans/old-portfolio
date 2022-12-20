@@ -4,16 +4,24 @@ import './ProjectCard.css';
 
 function ProjectCard(props) {  
     
-    let id = props.id;
-    if(id < 9) {
-        id = "0" + id;
+    // Formatting numbers 
+    function formatNumber(num) {
+        if(num < 9) {
+            num = "0" + num;
+        }
+
+        return num
     }
+
+    // Formatting numbers
+    let id = formatNumber(props.id);
+    let noOfItems = formatNumber(props.totalNoOfItems);
 
     return (
         <article className='projectcard'>
             <header className='projectcard__header'>
                 <h2 className='projectcard__name'>{props.name}</h2>
-                <p className="projectcard__projectnumber">{id} / 05</p>
+                <p className="projectcard__projectnumber">{id} / {noOfItems}</p>
             </header>
             <img className='projectcard__image' src={props.imgPath} alt="" />
 
