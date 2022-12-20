@@ -1,10 +1,10 @@
 [
     {
         "id": "1",
-        "name": "Scrollytelling",
-        "imgPath": "/img/scrollytelling.png",
-        "description": "This project was part of the course Advanced CSS where we created a scrollytelling page using SCSS and IntersectionObserver API. We also took to use the BEM naming convention for SCSS.",
-        "link": "https://tijohans.github.io/IDG1293_o3/"
+        "name": "PHP E-Commerce",
+        "imgPath": "/img/phpecommerce.png",
+        "description": "This project was made as part of the course IDG2003 - Back-end development. This website is a simplified web shop, where the user can view different items, add to cart, and checkout. There is also a login functionality, and ability to create a user.",
+        "link": "https://github.com/tijohans/IDG2003-ecommerce"
     },
     {
         "id": "2",
@@ -15,13 +15,20 @@
     },
     {
         "id": "3",
+        "name": "Scrollytelling",
+        "imgPath": "/img/scrollytelling.png",
+        "description": "This project was part of the course Advanced CSS where we created a scrollytelling page using SCSS and IntersectionObserver API. We also took to use the BEM naming convention for SCSS.",
+        "link": "https://tijohans.github.io/IDG1293_o3/"
+    },
+    {
+        "id": "4",
         "name": "Todo App",
         "imgPath": "/img/todo-app.png",
         "description": "This project was part of the front-end course, were our task was to create an app with a list of different criterias",
         "link": "https://tijohans.github.io/IDG1011_o3/"
     },
     {
-        "id": "4",
+        "id": "5",
         "name": "JS Guessing Game",
         "imgPath": "/img/gkt.png",
         "description": "This is a game I created were the goal is to guess wether the given quote is either a Kanye tweet, a Gibby quote, or a poorly translated t-shirt",

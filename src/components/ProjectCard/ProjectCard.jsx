@@ -13,7 +13,7 @@ function ProjectCard(props) {
         <article className='projectcard'>
             <header className='projectcard__header'>
                 <h2 className='projectcard__name'>{props.name}</h2>
-                <p className="projectcard__projectnumber">{id} / 04</p>
+                <p className="projectcard__projectnumber">{id} / 05</p>
             </header>
             <img className='projectcard__image' src={props.imgPath} alt="" />
 
