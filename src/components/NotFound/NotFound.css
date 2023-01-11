@@ -1,0 +1,10 @@
+.notfound {
+    max-width: 80vw;
+    height: 60vh;
+    display: grid;
+    place-items: center;
+}
+
+.notfound div * {
+    margin-block: 10px;
+}
