@@ -1,16 +1,26 @@
-button {
+.button__component {
     font-family: var(--header-font);
     background-color: var(--primary-color-1);
     border: 3px solid black;
     box-shadow: 4px 4px 0 0 black;
     padding: 10px;
     font-size: 1rem;
-
+    
     min-width: 42px;
+    max-width: 10rem;
     min-height: 42px;
 }
 
-button:hover {
+.button__component * {
+    font-family: var(--header-font);
+    max-width: 100%;
+}
+
+.button__component button {
+    all: unset;
+}
+
+.button__component:hover {
     cursor: pointer;
     background-color: var(--primary-color-2);
     position: relative;

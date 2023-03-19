@@ -17,3 +17,7 @@ main {
     margin-block: 10vh 5vh;
     max-width: 40ch;
 }
+
+.projects__header > * {
+    margin-block: 5px;
+}

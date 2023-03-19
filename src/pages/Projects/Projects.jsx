@@ -28,7 +28,7 @@ function Projects() {
             .then(function (myJson) {
                 console.log(myJson);
                 setData(myJson)
-            });
+            })
     }
 
     useEffect(() => {
@@ -70,6 +70,7 @@ function Projects() {
             <header ref={el => {info = el}} className='projects__header'>
                 <h1>Projects</h1>
                 <p>This is a list of my five most recent projects, the list will be updated regularly. </p>
+                <p>If no live version of project exists both links will go to github. WIP.</p>
             </header>
             <section ref={el => {projects = el}} className='projects'>
                 {
@@ -82,6 +83,7 @@ function Projects() {
                             imgPath={item.imgPath}
                             description={item.description}
                             link={item.link}
+                            github_link={item.github_link}
                             totalNoOfItems={data.length}
                         />)
                 }
